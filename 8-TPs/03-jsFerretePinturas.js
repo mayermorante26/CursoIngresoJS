@@ -26,5 +26,5 @@ function CentigradosFahrenheit ()
 
     fahrenheit= (temperatura * (9/5)) + 32;
     
-    alert( temperatura + " centígrados (C°) " + fahrenheit + " Fahrenheit (F°)");
+    alert( temperatura + " centígrados (C°) " + fahrenheit.toFixed(2) + " Fahrenheit (F°)");
 }

@@ -11,8 +11,8 @@ function mostrar()
 	
 	alert("Usted se llama "+ nombreIngresasdo + " y tiene " + edadIngresada+  " años" ); //puede estar todo junto o no
 	
-	alert("Usted se llama "+ nombreIngresasdo ); 
-	alert ( " y tiene " + edadIngresada+  " años");
+	//alert("Usted se llama "+ nombreIngresasdo ); 
+	//alert ( " y tiene " + edadIngresada+  " años");
 
      
 }

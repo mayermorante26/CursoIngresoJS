@@ -36,11 +36,11 @@ function Circulo ()
     radio= parseInt(radio);
 
     pi= 3.14;
-    circulo= (radio * radio) * pi;
+    circulo= (2 * Math.PI) * radio;
     circuloAlambre= circulo* 3;
 
 
-    alert("La cantidad de alambre a comprar es : " + circuloAlambre + " cm^2");
+    alert("La cantidad de alambre a comprar es : " + circuloAlambre.toFixed(2) + " cm^2");
 
 }
 

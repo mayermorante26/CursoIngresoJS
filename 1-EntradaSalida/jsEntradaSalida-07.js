@@ -19,7 +19,7 @@ function sumar()
 	
 	alert("La suma es " + suma);
 
-	}
+}
 
 function restar()
 {

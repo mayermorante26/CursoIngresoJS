@@ -18,5 +18,5 @@ function mostrarAumento()
 
  txtIdResultado.value= resultado;
 
-	
 }
+
