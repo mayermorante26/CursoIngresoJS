@@ -1,26 +1,27 @@
 function mostrar()
 {
-	var numero;
-    numero = Math.floor(Math.random() * 10 + 1);
-   
-	if (numero >= 9)
-	{
-		alert("EXCELENTE : " + numero);
+	/* Al presionar el Botón, asignar una nota RANDOM al examen y mostrar:
+	"EXCELENTE" para notas igual a 9 o 10,
+	"APROBÓ" para notas mayores a 4,
+	"Vamos, la proxima se puede" para notas menores a 4*/
 
-	
-   }
+	var numeroAleatorio;
+    numeroAleatorio = Math.floor(Math.random() * 10 + 1);
+   
+	if (numeroAleatorio > 8)
+	{
+		alert("EXCELENTE!!");
+    }
    else
    {
-	   if (numero>4 && numero <9)
+	   if (numeroAleatorio>3)
 	   {
-		alert("APROBO : " + numero); 
+			alert("APROBO!!"); 
 	   }
 	   else
 	   {
-		alert("VAMOS LA PROXIMA SE PUEDE :  " + numero);  
+			alert("VAMOS LA PROXIMA SE PUEDE!!");  
 	   }
    }
-	
-		
 
-}//FIN DE LA FUNCIÓN
+}//Morante Y
